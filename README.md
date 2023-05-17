@@ -1,4 +1,8 @@
-# OS_Project
+# OS_Project : Dining Philosopher with System Call
+
+
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/119106831/f88ece12-b4dc-49f5-bebf-24bb19610c27)
+
 
 ## Group Members
 | Name  | Student Id | Email |
