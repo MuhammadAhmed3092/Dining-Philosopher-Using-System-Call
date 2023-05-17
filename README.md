@@ -14,6 +14,45 @@ Project Goal 🔥
 
 The goal of the "Dining Philosopher with System Call" project is to develop a solution that allows philosophers to dine gracefully by avoiding deadlocks and starvation. By incorporating system calls into the implementation, we aim to achieve efficient resource management, synchronization, and process scheduling. The project focuses on designing a system that ensures fair resource allocation, allowing each philosopher to acquire the required forks and proceed with their activities without encountering issues. The ultimate objective is to demonstrate the effectiveness of system calls in addressing concurrency challenges and creating a robust solution for the Dining Philosophers problem.
 
+STEP1
+add the code for dining philosopher and sleep call
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/7a4cc832-28a3-4039-bedf-ddb34d52d982)
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/5c281ef7-a903-4a33-942b-a98d48cdaef7)
 
-Codes 💻
+STEP2
+make the make file for both system calls there will be used by kernel to create object file for system call
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/708e9102-354f-4485-9ba7-fa47373da790)
+
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/09b41e67-2839-4128-983b-28a2e13c3bda)
+
+STEP3
+in the kernel make file add the path to diningphilosophr and sleepcall
+
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/0bb6f058-f60c-4169-81d0-0abb34af3993)
+
+STEP 4 
+add system call in system table
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/f0cb621c-2173-4144-8830-27ceca46cc25)
+
+STEP 5 
+add Prototype in syscalls.h at the end
+![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/de52e72b-d7dd-447a-a6ec-c7063287a851)
+
+STEP 6 
+installing PREREQUISITIES which can be used in compilation and installation
+sudo apt-get install gcc
+• sudo apt-get install libncurses5-dev
+• sudo apt-get install bison
+• sudo apt-get install flex
+• sudo apt install make
+• sudo apt-get install libssl-dev
+• sudo apt-get install libelf-dev
+• sudo apt-get update
+• sudo apt-get upgrade
+STEP 7
+• Make menuconfig to save settings
+• Make -j4 
+• Make modules install 
+• And in last rebooting the vm
+
 
