@@ -58,7 +58,8 @@ The goal of the "Dining Philosopher with System Call" project is to develop a so
 </details>
 
 #### *STEP 6*   installing PREREQUISITIES which can be used in compilation and installation  
-<blockquote>
+<blockquote> 
+  
 • sudo apt-get install gcc  
 • sudo apt-get install libncurses5-dev  
 • sudo apt-get install bison  
@@ -72,6 +73,7 @@ The goal of the "Dining Philosopher with System Call" project is to develop a so
 
 #### *STEP 7* implementing system calls  
 <blockquote>
+  
 • Make menuconfig to save settings  
 • Make -j4   
 • Make modules install   
