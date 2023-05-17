@@ -22,6 +22,7 @@ The goal of the "Dining Philosopher with System Call" project is to develop a so
 ![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/7a4cc832-28a3-4039-bedf-ddb34d52d982)
 ![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/5c281ef7-a903-4a33-942b-a98d48cdaef7)
 </details>
+
 #### *STEP2* make the make file for both system calls there will be used by kernel to create object file for system call
 <details>
   <summary>View ScreenShot</summary>
@@ -30,24 +31,28 @@ The goal of the "Dining Philosopher with System Call" project is to develop a so
 
 ![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/09b41e67-2839-4128-983b-28a2e13c3bda)
 </details>
+
 #### *STEP3* in the kernel make file add the path to diningphilosophr and sleepcall
 <details>
   <summary>View ScreenShots</summary>
 
 ![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/0bb6f058-f60c-4169-81d0-0abb34af3993)
 </details>
+
 #### *STEP 4* add system call in system table  
 <details>
   <summary>View ScreenShots</summary>
 
  ![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/f0cb621c-2173-4144-8830-27ceca46cc25)
 </details>
+
 #### *STEP 5* add Prototype in syscalls.h at the end
 <details>
   <summary>View ScreenShots</summary>
 
 ![image](https://github.com/MuhammadAhmed3092/OS_Project/assets/125905421/de52e72b-d7dd-447a-a6ec-c7063287a851)
 </details>
+
 #### *STEP 6*   installing PREREQUISITIES which can be used in compilation and installation  
 <blockquote>
 • sudo apt-get install gcc  
@@ -60,6 +65,7 @@ The goal of the "Dining Philosopher with System Call" project is to develop a so
 • sudo apt-get update  
 • sudo apt-get upgrade
  </blockquote>
+
 #### *STEP 7* implementing system calls  
 <blockquote>
 • Make menuconfig to save settings  
