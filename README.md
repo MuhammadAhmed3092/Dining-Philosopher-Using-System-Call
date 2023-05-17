@@ -1,5 +1,8 @@
 # OS_Project
-Created a "Dining Philosopher with System Call" Project in Linux
+
+Group Members
+
+PRESENTED BY : MUHAMMAD AHMED | NIZAMUDDIN
 
 
 Project Introduction👋
@@ -13,5 +16,4 @@ The goal of the "Dining Philosopher with System Call" project is to develop a so
 
 
 Codes 💻
-
 
